@@ -19,6 +19,7 @@ public class Main {
 	static Queue<Character>queue=new LinkedList<>();
 	static int pointer=0;
 	static FString run(String code){
+		code=code+" ";
 		StringBuilder s=new StringBuilder();
 		char[]prog=code.toCharArray();
 		if(autoReset){
